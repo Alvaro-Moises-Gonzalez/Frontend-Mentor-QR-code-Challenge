@@ -1,0 +1,115 @@
+//vars
+$color-background: hsl(212, 45%, 89%);
+$color-card: hsl(0, 0%, 100%);
+$color-upper-text: hsl(218, 44%, 22%);
+$color-bottom-text: hsl(220, 15%, 55%);
+$breakpoints: (large: 1440px,);
+$font: 'Oufit', sans-serif;
+
+
+//mixins
+@mixin media-up($breakpoint){
+    @media screen and (min-width: map-get($breakpoints, $breakpoint)){
+        @content;
+    }
+}
+
+@mixin box-shadow{
+    box-shadow: 0px 0px 20px 18px rgb(0,0,0,0.15);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: $color-background;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.card{
+    width: 300px;
+    height: auto;
+    background-color: $color-card;
+    margin: 50px auto;
+    border-radius: 15px;
+    @include box-shadow();
+    @include media-up(large){
+        width: 600px;
+    }
+    img{
+        width: 270px;
+        width: 270px;
+        margin: 15px;
+        border-radius: 15px;
+
+        @include media-up(large){
+            width: 540px;
+            height: 540px;
+            margin: 30px;
+        }
+    }
+    .card__upper-text{
+        display: inline-block;
+        font-family: $font;
+        font-weight: 700;
+        text-align: justify;
+        padding: 0 25px;
+        font-size: 2rem;
+        color: $color-upper-text;
+        margin: 5px 0px 20px 0px ;
+
+        @include media-up(large){
+            font-size: 4rem;
+            padding: 0 50px;
+            margin: 10px 0px 40px 0px;
+        }
+    }
+    .card__bottom-text{
+        display: inline-block;
+        font-family: $font;
+        color: $color-bottom-text;
+        text-align: center;
+        padding: 0px 20px;
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+
+        @include media-up(large){
+            padding: 0px 40px;
+            font-size: 3rem;
+            margin-bottom: 60px;
+        }
+    }
+
+}
+
+.attribution{
+    display: flex;
+    justify-content: center;
+    .attribution__site{
+        font-size: 1.5rem;
+        margin-right: 5px;
+
+        @include media-up(large){
+            font-size: 3rem;
+            margin-right: 10px;
+        }
+    }
+    .attribution__coder{
+        font-size: 1.5rem;
+        margin-right: 5px;
+
+        @include media-up(large){
+            font-size: 3rem;
+            margin-right: 10px;
+        }
+    }
+}
