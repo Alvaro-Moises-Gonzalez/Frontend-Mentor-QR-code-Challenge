@@ -30,7 +30,7 @@ but you can use a lot more, for the challenge i use Pug for the HTMl layout, and
 ### Links
 
 - Solution URL: [github repository](https://github.com/Alvaro-Moises-Gonzalez/Frontend-Mentor-QR-code-Challenge)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [git-hub pages](https://alvaro-moises-gonzalez.github.io/Frontend-Mentor-QR-code-Challenge/)
 
 ## My process
 
