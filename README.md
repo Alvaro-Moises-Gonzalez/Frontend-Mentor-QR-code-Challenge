@@ -27,14 +27,6 @@ but you can use a lot more, for the challenge i use Pug for the HTMl layout, and
 
 ![screenshot](./screenshot.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-
-
 ### Links
 
 - Solution URL: [github repository](https://github.com/Alvaro-Moises-Gonzalez/Frontend-Mentor-QR-code-Challenge)
@@ -48,7 +40,7 @@ i created a section with the class card being the container of the card, inside 
 
 fot the styling i create a sass file, on the start of the file i declared vars, for the color, fonts and sizes for the screen. then i created two mixings one for the box shadow for easy manipulation, and the other for managing the media query.
 
-so i started codin a css reset, specifying the font size, and background colors, and starting to stylize the card. and so i was using sass, i take advantages of its nestling capabilities, and invoking the media query mixin on it to specify styles on the large screen size.
+so i started coding a css reset, specifying the font size, and background colors, and starting to stylize the card. and so i was using sass, i take advantages of its nestling capabilities, and invoking the media query mixin on it to specify styles on the large screen size.
 
 i start to mobile fist, so i only have to specify a mediaquery for the large screen size.
 
@@ -69,7 +61,7 @@ I have a bad time beacuse HTML compiled from pug doesnt recognize the routes for
 i´m going to practice a lot more on media queries searching for a more organized code, that be easier to read and mantain.
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Alvaro-Moises-Gonzalez)
+- Frontend Mentor - [@Alvaro-Moises-Gonzalez](https://www.frontendmentor.io/profile/Alvaro-Moises-Gonzalez)
 
 
 
