@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #d6e2f0;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 300px;
+  height: auto;
+  background-color: white;
+  margin: 50px auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px 18px rgba(0, 0, 0, 0.15);
+}
+@media screen and (min-width: 1440px) {
+  .card {
+    width: 520px;
+  }
+}
+.card img {
+  width: 270px;
+  width: 270px;
+  margin: 15px;
+  border-radius: 15px;
+}
+@media screen and (min-width: 1440px) {
+  .card img {
+    width: 460px;
+    height: 460px;
+    margin: 30px;
+  }
+}
+.card .card__upper-text {
+  display: inline-block;
+  font-family: "Oufit", sans-serif;
+  font-weight: 700;
+  text-align: justify;
+  padding: 0 25px;
+  font-size: 2rem;
+  color: #1f3251;
+  margin: 5px 0px 20px 0px;
+}
+@media screen and (min-width: 1440px) {
+  .card .card__upper-text {
+    font-size: 3.4rem;
+    padding: 0 50px;
+    margin: 10px 0px 40px 0px;
+  }
+}
+.card .card__bottom-text {
+  display: inline-block;
+  font-family: "Oufit", sans-serif;
+  color: #7b879d;
+  text-align: center;
+  padding: 0px 20px;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 1440px) {
+  .card .card__bottom-text {
+    padding: 0px 40px;
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+  }
+}
+
+.attribution {
+  display: flex;
+  justify-content: center;
+}
+.attribution .attribution__site {
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+@media screen and (min-width: 1440px) {
+  .attribution .attribution__site {
+    font-size: 3rem;
+    margin-right: 10px;
+  }
+}
+.attribution .attribution__coder {
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+@media screen and (min-width: 1440px) {
+  .attribution .attribution__coder {
+    font-size: 3rem;
+    margin-right: 10px;
+  }
+}
